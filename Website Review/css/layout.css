@@ -1,0 +1,72 @@
+html {
+    width:100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    header {
+        font-size: 24px;
+    }
+
+    nav {
+        font-size: 16px;
+    }
+
+    nav a {
+        margin: 5px;
+    }
+}
+body { 
+    min-height: 100vh; 
+    margin:0; 
+}
+
+header { 
+    min-height:50px; 
+    background:rgb(65, 92, 92); 
+}
+
+footer { 
+    min-height:50px; 
+    background:PapayaWhip; 
+}
+
+body{ 
+    display:flex; 
+    flex-direction:column; 
+}
+
+article{ 
+    flex:1; 
+}
+
+/* Scrollbar Layout */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #b6b6b6; 
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #000000; 
+  }
