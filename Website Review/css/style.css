@@ -45,23 +45,23 @@ h1 {
   div {
     position: absolute;
   }
-  #game1 {
+  #slide1 {
     left: 0px;
     text-align: center;
   }
-  #game2 {
+  #slide2 {
     left: 325px;
     text-align: center;
   }
-  #game3 {
+  #slide3 {
     left: 650px;
     text-align: center;
   }
-  #game4 {
+  #slide4 {
     left: 975px;
     text-align: center;
   }
-  #game5 {
+  #slide5 {
     left: 1300px;
     text-align: center;
   }
